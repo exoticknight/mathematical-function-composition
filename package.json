@@ -1,0 +1,45 @@
+{
+  "name": "mathematical-function-composition",
+  "version": "0.0.1",
+  "description": "function composition, in the mathematical way",
+  "main": "dist/index.js",
+  "type": "dist/index.d.ts",
+  "scripts": {
+    "test": "nyc tape test/*.spec.ts | tap-spec; nyc report --reporter=text",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "build": "rm -rf dist && tsc",
+    "prebuild": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exoticknight/mathematical-function-composition.git"
+  },
+  "files": [
+    "dist",
+    "license",
+    "readme.md"
+  ],
+  "keywords": [
+    "haskell",
+    "compose",
+    "function",
+    "functional",
+    "composition",
+    "mathematical"
+  ],
+  "author": {
+    "email": "draco.knight0@gmail.com",
+    "name": "exoticknight"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/tape": "^4.2.33",
+    "codecov": "^3.6.1",
+    "nyc": "^14.1.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
