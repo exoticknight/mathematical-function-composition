@@ -1,7 +1,7 @@
 # mathematical-function-composition
 [![Build Status](https://travis-ci.org/exoticknight/mathematical-function-composition.svg?branch=master)](https://travis-ci.org/exoticknight/mathematical-function-composition)
 [![codecov](https://codecov.io/gh/exoticknight/mathematical-function-composition/branch/master/graph/badge.svg)](https://codecov.io/gh/exoticknight/mathematical-function-composition)
-![license](https://img.shields.io/npm/l/mathematical-function-composition.svg)
+![license](https://img.shields.io/npm/l/mathematical-function-composition?label=license)
 
 function composition, in the mathematical way
 
