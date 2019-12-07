@@ -1,0 +1,7 @@
+language: node_js
+env:
+  global:
+    - CODECOV_TOKEN: 10739df9-ec73-4969-a3b4-e9ff51770eec
+node_js:
+  - "node"
+after_success: npm run coverage
